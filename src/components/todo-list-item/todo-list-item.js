@@ -69,10 +69,10 @@ import './todo-list-item.css'
 // }
 
 class TodoListItem extends Component {
-    state={
-        done: false,
-        important: false
-    }
+    // state={
+    //     done: false,
+    //     important: false
+    // }
 
     // onLabelClick = () => {
     //     this.setState(({ done }) => {

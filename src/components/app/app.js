@@ -43,7 +43,7 @@ class App extends React.Component {
   createTodoItem = (label) => {
     return {
       label,
-      impportant: false,
+      important: false,
       done: false,
       id: this.maxId++
     }
@@ -81,6 +81,7 @@ class App extends React.Component {
       newItem,
       ...arr.slice(idx + 1)
     ]
+    console.log(newArray)
     return newArray
   }
 
