@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  todo:
+    build: .
+    container_name: todo_container
+    ports:
+    - 80:80
+    volumes:
+    - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
